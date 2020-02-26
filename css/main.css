@@ -98,6 +98,58 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body{
+  font-family: 'Karla';
+  background: #f8f8f8;
+  height: 80vh;
+}
+
+h1{
+  background: #9392ea;
+  margin: 0;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+p{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  letter-spacing: .3px;
+  line-height: 1.8em;
+}
+
+p a{
+  background: #dbcaf6;
+  color: #fff !important;
+  padding: 2px 5px 3px 5px;
+  -webkit-transition: all .15s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .5s ease;
+  font-size: 20px;
+}
+
+p a:hover{
+  color: #b795ec !important;
+  background: #fff;
+  border: 1px solid #b795ec;
+}
+
+a, a:visited{
+  color: #222;
+  text-decoration: none;
+  cursor: crosshair;
+}
+
+.container-left{
+  max-width: 350px;
+  margin: 8rem 3rem 8rem 3rem;
+  background: #f8f8f8;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
