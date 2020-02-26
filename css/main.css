@@ -101,7 +101,11 @@ textarea {
 body{
   font-family: 'Karla';
   background: #f8f8f8;
-  height: 80vh;
+  background-image: url("../img/jiji.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: auto 40%;
+  height: 85vh;
 }
 
 h1{
