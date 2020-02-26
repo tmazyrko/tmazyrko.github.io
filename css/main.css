@@ -122,7 +122,7 @@ p{
 }
 
 p a{
-  background: #dbcaf6;
+  background: #8b9fd8;
   color: #fff !important;
   padding: 2px 5px 3px 5px;
   -webkit-transition: all .15s ease;
@@ -133,15 +133,29 @@ p a{
 }
 
 p a:hover{
-  color: #b795ec !important;
+  color: #758ccb !important;
   background: #fff;
-  border: 1px solid #b795ec;
+  border: 1px solid #758ccb;
 }
 
 a, a:visited{
   color: #222;
   text-decoration: none;
   cursor: crosshair;
+}
+
+.fas{
+  font-size: 24px;
+  cursor: crosshair;
+}
+
+small{
+  font-size: 13px;
+}
+
+.symbol{
+  font-style: normal;
+  font-family: "Lato";
 }
 
 .container-left{
